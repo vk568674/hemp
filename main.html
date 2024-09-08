@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS NQT Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('/img/ai.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right ,rgb(22, 1, 36),rgba(197, 108, 238, 0.781) );/* Semi-transparent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.breadcrumb {
+    color: #fff;
+    font-size: 99px;
+    font-family: "";
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+
+.main-heading {
+    color: #fff;
+    font-size: 55px;
+}
+
+.main-heading h1 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.main-heading p {
+    font-size:16px;
+    margin-top: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .main-heading h1 {
+        font-size: 36px;
+    }
+
+    .main-heading p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+    .main-heading h1 {
+        font-size: 28px;
+    }
+
+    .main-heading p{
+        font-size: 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+/*    style for a square boxes on web page with image */
+
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.how-it-works h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.step {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.step p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .step {
+        width: 100%;
+    }
+}
+.step:hover{
+    box-shadow: 0 2px 8px rgba(0, 0,);
+}
+/*collection section css*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.collection-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 5ps;
+}
+
+.collection-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 20%px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.collection-item img {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.collection-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.collection-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.collection-item a:hover {
+    background-color: #0056b3;
+}
+
+.collection-item.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*collection section csss end*/
+</style>
+<body>
+    <div class="hero-section">
+        <div class="overlay">
+            <div class="breadcrumb">
+                Explore Idea
+            </div>
+            <div class="main-heading">
+                <h1>Hole world on your fingertips.</h1>
+                <p>Explore Idea is an online marketplace that connects buyers and sellers of ideas and intellectual property (IP) together. The marketplace will display ideas from different industries and categories including patents, copyrights, utility models, television commercials, print ads, new application ideas for mobile devices, product improvement ideas, reality television ideas, business strategy ideas and much more</p>
+            </div>
+        </div>
+    </div>
+    <section class="how-it-works">
+        <h2>How it works</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="./img/aaa1.png" alt="Post an Idea">
+                <h3>Post an Idea</h3>
+                <p>Simply post your idea for sale and receive competitive bids from buyers around the world on Ideas MarketPlace.</p>
+            </div>
+            <div class="step">
+                <img src="./img/bb11.avif" alt="Find & Choose an Idea">
+                <h3>Find & Choose an Idea</h3>
+                <p>Find high-quality Intellectual property at very best rates.</p>
+            </div>
+            <div class="step">
+                <img src="./img/bid.png" alt="Awaits Bid">
+                <h3>Awaits Bid</h3>
+                <p>Get bid proposals from around the world for your valuable idea(s) at competitive prices.</p>
+            </div>
+            <div class="step">
+                <img src="./img/payy.jpg" alt="Pay safely">
+                <h3>Pay safely</h3>
+                <p>Pay and receive secure payments for ideas through Ideas MarketPlace.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--collection section of my web page ====-->
+    <div class="collection-container">
+        <div class="collection-item">
+            <img src="campaigns-icon.png" alt="Campaigns">
+            <h3>Campaigns</h3>
+            <a href="#">View</a>
+        </div>
+        <div class="collection-item">
+            <img src="solve-problem-icon.png" alt="Solve a problem">
+            <h3>Solve a problem</h3>
+            <a href="#">View</a>
+        </div>
+        <div class="collection-item">
+            <img src="ending-soon-icon.png" alt="Ending Soon">
+            <h3>Ending Soon</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="collection-item">
+            <img src="freebies-icon.png" alt="Freebies">
+            <h3>Freebies</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="collection-item">
+            <img src="exclusive-icon.png" alt="Exclusive">
+            <h3>Exclusive</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="collection-item">
+            <img src="technology-icon.png" alt="Technology">
+            <h3>Technology</h3>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <!-----==========end of collection section=============------------>
+    <!--================Java script===== sction ======    --->
+    <script >
+
+document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll('.collection-item');
+
+    items.forEach((item, index) => {
+        setTimeout(() => {
+            item.classList.add('visible');
+        }, index * 1000); // 1 second delay between each box
+    });
+});
+
+    </script>
+</body>
+</html>
