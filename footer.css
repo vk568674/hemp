@@ -1,0 +1,51 @@
+/* Footer Styles */
+#site-footer {
+    background-color: #111; /* Dark black background */
+    padding: 40px 0; /* Space around the footer content */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align all text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect to elevate the footer */
+}
+
+.footer-icons {
+    margin-bottom: 20px; /* Space between icons and navigation */
+}
+
+.social-icon {
+    margin: 0 15px; /* Spacing between each icon */
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Size of icons */
+    transition: color 0.3s ease; /* Smooth color change transition */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change icon color on hover */
+}
+
+.footer-nav {
+    margin-bottom: 20px; /* Space between navigation and copyright */
+}
+
+.footer-nav a {
+    margin: 0 15px; /* Spacing between each navigation link */
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for links */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.footer-nav a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+.footer-text {
+    font-size: 14px; /* Font size for the copyright text */
+    color: #bbb; /* Slightly lighter color for the copyright text */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .social-icon, .footer-nav a {
+        margin: 0 10px; /* Adjust spacing for smaller screens */
+    }
+}
